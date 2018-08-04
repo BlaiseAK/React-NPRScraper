@@ -16,5 +16,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://blaiseak.github.io/React-NPRScraper/"
+  "homepage": "https://blaiseak.github.io/React-NYT-API/"
 }

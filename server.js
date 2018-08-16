@@ -6,7 +6,7 @@ const morgan = require("morgan");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-mongoose.Promise = Promise;
+mongoose.Promise = Promise.global;
 
 // connected to the localhost or the process env
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/nytreact");
